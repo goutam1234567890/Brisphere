@@ -1,0 +1,41 @@
+.date-input-container {
+    position: relative;
+    display: inline-block;
+    font-family: Arial, sans-serif;
+    width: 200px;
+    cursor: pointer; /* Makes the entire container appear clickable */
+}
+
+.date-input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    font-size: 1em;
+    border: none;
+    background-color: white;
+    width: 100%;
+    cursor: pointer;
+}
+
+/* Custom caret icon positioned within the input field */
+.date-input-container::after {
+    content: "▾"; /* Caret symbol */
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1em;
+    color: #333;
+    pointer-events: none; /* Allows clicks through to input */
+}
+
+.date-input:focus {
+    background-color: #e0e0e0; /* Optional: change color on focus */
+}
+
+/* Additional CSS for removing the calendar icon */
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+}

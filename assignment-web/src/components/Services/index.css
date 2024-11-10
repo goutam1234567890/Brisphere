@@ -1,0 +1,47 @@
+.list-item{
+    max-width: 300px;
+    background-color: #ffffff;
+    padding: 10px;
+    /* margin-right: 10px; */
+    /* flex: 1 1 400px; */
+    /* box-sizing: border-box; */
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.wifi-icon {
+    height: 40px;
+    width: 40px;
+    color: gray;
+    text-align: center;
+    width: 100%;
+}
+
+.heading2 {
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.description {
+    font-size: 12px;
+    text-align: center;
+    width: 100%;
+}
+.unorder{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 16px;
+    
+}
+
+.heading-service {
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.services-page {
+    margin: 0px 100px 50px 100px;
+}

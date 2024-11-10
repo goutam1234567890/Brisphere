@@ -1,0 +1,29 @@
+.aboutUs-container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    background-color: lightgray;
+    width: 100%;
+    background-size: cover;
+    height: 300px;
+    justify-content: center;
+    align-items: flex-start;
+}
+.aboutUs-para{
+    margin: 0px;
+    font-family: "Roboto";
+    padding: 5px 0px 5px 0px;
+}
+.aboutUs-heading{
+    margin: 0px;
+}
+.aboutUs-button {
+    height: 50px;
+    width: 150px;
+    margin: 10px 0px 10px 0px;
+    background-color: blue;
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+    font-size: 20px;
+}
